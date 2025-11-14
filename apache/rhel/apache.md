@@ -162,5 +162,5 @@ Restart the Service and allow the *https* Service from the firewalld
 </VirtualHost>
 ```
 
-# See also  
-- [](http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html)
+# See also
+- [http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html](http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html)
