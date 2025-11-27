@@ -1,6 +1,7 @@
 [TOC]
 
 # apache
+
 ## Name-Based Vhost Configuration
 
 Hosts file for server and clients:
@@ -55,7 +56,7 @@ AllowOverride None
 
 ## Configuring Private Directories
 
-See also: [](https://httpd.apache.org/docs/2.4/fr/howto/auth.html)
+See also: [https://httpd.apache.org/docs/2.4/fr/howto/auth.html](https://httpd.apache.org/docs/2.4/fr/howto/auth.html)
 
 Create a Directory 'secret' in the Document Root Path
 
@@ -162,5 +163,6 @@ Restart the Service and allow the *https* Service from the firewalld
 </VirtualHost>
 ```
 
-# See also
-- [http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html](http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html)
+# See also 
+
+- [Optimiser la configuration d'apache @yann.com](http://www.yann.com/fr/optimiser-la-configuration-dapache-20/05/2011.html)
