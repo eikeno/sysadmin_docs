@@ -1,0 +1,9 @@
+dn: cn=Harry Miller,ou=eng,dc=homelab,dc=local
+objectClass: person
+sn: Miller
+cn: Harry Miller
+
+dn: cn=John Doe,ou=eng,dc=homelab,dc=local
+objectClass: person
+sn: Doe
+cn: John Doe

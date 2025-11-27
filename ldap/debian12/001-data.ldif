@@ -1,0 +1,7 @@
+dn: dc=homelab,dc=local
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Homelab
+dc: homelab
+

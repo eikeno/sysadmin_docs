@@ -1,0 +1,4 @@
+dn: cn=Sam Carter,ou=finance,dc=homelab,dc=local
+objectClass: person
+sn: Carter
+cn: Sam Carter

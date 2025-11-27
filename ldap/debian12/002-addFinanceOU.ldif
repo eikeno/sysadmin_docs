@@ -1,0 +1,3 @@
+dn: ou=finance,dc=homelab,dc=local
+objectClass: organizationalUnit
+ou: finance

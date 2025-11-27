@@ -1,0 +1,7 @@
+dn: olcDatabase={2}mdb,cn=config
+changetype: add
+objectClass: olcDatabaseConfig
+objectClass: olcMdbConfig
+olcDatabase: {2}mdb
+olcSuffix: cn=log
+olcDbDirectory: /var/lib/ldap-access

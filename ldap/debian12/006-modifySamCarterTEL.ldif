@@ -1,0 +1,4 @@
+dn: cn=Sam Carter,ou=finance,dc=homelab,dc=local
+changetype: modify
+replace: telephoneNumber
+telephoneNumber: +33 1 23 23 @#
