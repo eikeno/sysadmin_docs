@@ -1,4 +1,3 @@
-[TOC]
 # Adding an overlay :  AccessLog, log to a dedicated MDB database
 
 For the demo, following Videos #7, 8, 9 we add an AccessLog overlay to:

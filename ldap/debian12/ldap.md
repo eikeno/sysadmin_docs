@@ -1,4 +1,3 @@
-[TOC]
 
 This page is mostly following examples based on this series of Videos:
 
