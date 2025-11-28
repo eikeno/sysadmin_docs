@@ -350,7 +350,7 @@ This page is mostly following examples based on this series of Videos:
 
 - [Getting Familiar with OpenLDAP, by Rajesh Rajasekharan](https://www.youtube.com/playlist?list=PLfO6SFqcY2PrDR5yct96n4qfgMmh6g0eP)
 
-## [Adding an overlay](ldap_overlay)
+## [Adding an overlay](ldap_overlay.md)
 
 ## Making the OpenLDAP Online Configuration (OLC) Permanent
 
@@ -358,13 +358,13 @@ Related to Video #11
 
 The Debian setup already created **/etc/ldap/slapd.d**  with correct **cn=config** related entries, so we have nothing more to do to achieve permanent OLC, as it's already implemented.
 
-## [Acess Control](ldap_access_control)
+## [Acess Control](ldap_access_control.md)
 
-## [Password Policy](ldap_password_policy)
+## [Password Policy](ldap_password_policy.md)
 
 
 
-## Tips and Tricks 
+## Tips and Tricks
 
 ### Check loaded modules
 ```shell
