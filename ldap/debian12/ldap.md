@@ -360,6 +360,9 @@ The Debian setup already created **/etc/ldap/slapd.d**  with correct **cn=config
 
 ## [Acess Control](ldap_access_control)
 
+## [Password Policy](ldap_password_policy)
+
+
 
 ## Tips and Tricks 
 
@@ -368,6 +371,11 @@ The Debian setup already created **/etc/ldap/slapd.d**  with correct **cn=config
 # slapcat -n 0 | grep olcModuleLoad
 olcModuleLoad: {0}back_mdb
 olcModuleLoad: {1}accesslog
+```
+
+### Check loaded schemas
+```shell
+ldapsearch -x -D cn=admin,cn=config -w foobar123 -b cn=schema,cn=config objectClass=* dn
 ```
 
 ### Validate a user password
@@ -437,6 +445,7 @@ With TLS configured, your LDAP communications will be encrypted, enhancing the s
 -->
 
 #### See also 
+- [LDAP for Rocket Scientists @Zytrax.com](https://www.zytrax.com/books/ldap/) Online book covering many topics. MUST READ !
 - [Ldap search guide debutant](https://cyberinstitut.fr/utiliser-ldapsearch-guide-debutants/)
 - [Example of using Modrdn, the LDIF changeType directive for ModifyDNRequest](https://ldapwiki.com/wiki/Wiki.jsp?page=Modrdn)
 
